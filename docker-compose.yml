@@ -4,6 +4,9 @@ services:
     container_name: srv-mysql
     ports:
       - 3306:3306
+    restart: always
+    mem_limit: 16g
+    cpus: 4 
     environment:
       - MYSQL_DATABASE=${DB_DATABASE}
       - MYSQL_USER=${DB_DATABASE}
