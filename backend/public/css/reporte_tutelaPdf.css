@@ -1,0 +1,91 @@
+html{
+    padding: 0 0;
+}
+
+body{
+    width: 100%;
+    margin-left: 2mm;
+    margin-right: 2mm;
+    /*border: #000000 0.4mm solid;*/
+    font-size: 2.7mm;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/***** ENCABEZADO *****/
+
+.header {
+    /*background-color: red;*/
+    height: 25mm;
+}
+
+.header .titulo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/***+ TABLA ****/
+.list{
+    width: 100%;
+    border-top: 1px solid black;
+    border-collapse: collapse;
+    /*border-bottom: 1px solid black;*/
+    margin: 0 0;
+}
+
+.list tr.head td {
+    font-size: 8pt;
+    /*white-space: nowrap;*/
+    padding-right: 0.65em;
+    /*border: 1px solid;*/
+}
+
+td {
+    border: 1pt solid black;
+}
+
+tr.head > td {
+    padding: 6px;
+    height: 40px;
+}
+
+tr.body > td {
+    padding: 4px;
+    height: 25px;
+}
+
+tr.head > td.center, tr.body > td.center {
+    text-align: center;
+    /*border: 1pt solid black;*/
+}
+
+/**** IMagenes ****/
+
+.imagenes_encabezado {
+    display: inline-flex;
+}
+
+.imagenes_encabezado .imagen_1 {
+    /*float: left;*/
+    /*background: red;*/
+}
+
+.imagenes_encabezado .imagen_2 {
+    float: right;
+    background: #0b2e13;
+}
+
+.imagenes_encabezado .imagen_1 img  {
+    width: 320px;
+}
+
+.imagenes_encabezado .imagen_2 img {
+    width: 95px;
+}
+
+.vigencia {
+    padding: 10px 10px 10px 0;
+}
+
+.vigencia span {
+    font-size: 3mm;
+}

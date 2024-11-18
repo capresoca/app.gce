@@ -1,0 +1,160 @@
+html{
+    padding: 0 0;
+}
+
+body{
+    width: 100%;
+    margin-top: 1mm;
+    margin-left: 1mm;
+    margin-right: 1mm;
+    border: #000000 0.4mm solid;
+    font-size: 2.7mm;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.header {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 24mm;
+    text-align: center;
+}
+
+.header div:first-child {
+    /*background-color: #005cbf;*/
+    /*height: 20mm;*/
+}
+
+.header div.logo {
+    text-align: center;
+}
+
+.header div.logo img{
+    height: 20mm;
+}
+
+.actual_fecha{
+    width: 51mm;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 1mm;
+    /*height: 10mm;*/
+    /*padding-top: 18mm;*/
+    text-align: left;
+    /*background-color: #17a2b8;*/
+    /*border: #000000 0.4mm solid;*/
+    /*position: fixed;*/
+    /*float: left;*/
+}
+
+.actual_fecha p {
+    margin-top: 0 !important;
+    font-size: 2.9mm !important;
+}
+
+/*** TABLA  */
+
+.tabla-1 {
+    margin-top: 25mm !important;
+}
+
+.tabla-1 table {
+    width: 100%;
+}
+
+.footer_2 {
+    margin-top: 2mm !important;
+    margin-bottom: 0 !important;
+}
+
+.footer_2 table {
+    width: 100%;
+}
+
+div.table_body .table_foot tfoot tr > td:first-child {
+    font-size: 3mm;
+    font-weight: lighter;
+}
+
+div.table_body .table_foot tfoot:nth-child(2) tr > td {
+    font-size: 2.6mm !important;
+    font-weight: lighter;
+    /*background-color: #ffe8a1;*/
+}
+
+/*** OPTIONS CLASS ***/
+.table-collapse {
+    border-collapse: collapse;
+}
+
+.celda {
+    border: .2mm solid #000 !important;
+}
+
+.color_grey {
+    background-color: rgba(88, 88, 88, 0.2);
+}
+
+.border_bottom {
+    border-bottom: 0.2mm solid #000 !important;
+}
+
+.border_top {
+    border-top: 0.2mm solid #000 !important;
+}
+
+.borde_derecho {
+    border-right: 0.2mm solid #000 !important;
+}
+
+.borde_izquierdo {
+    border-left: 0.2mm solid #000 !important;
+}
+
+.none_border_bottom {
+    border-bottom: none !important;
+}
+.none_border_top {
+    border-top: none !important;
+}
+.none_borde_izquierdo {
+    border-left: none !important;
+}
+
+.none_borde_derecho {
+    border-right: none !important;
+}
+.text_center {
+    text-align: center !important;
+}
+
+.text_right {
+    text-align: right !important;
+}
+
+.text_left {
+    text-align: left !important;
+}
+
+.text_justify {
+    text-align: justify !important;
+}
+
+.negrilla {
+    font-weight: bolder !important;
+}
+
+.basica-text {
+    font-weight: normal !important;
+}
+
+.negrilla-2 {
+    font-weight: bold !important;
+}
+
+div.saltopagina {
+    display:block;
+    page-break-before:always;
+}
+/*******************/

@@ -1,0 +1,96 @@
+<template>
+  <loading-vue :is-full-page="isFullPage" :active.sync="value"/>
+</template>
+
+<script>
+  import 'vue-loading-overlay/dist/vue-loading.min.css'
+  import LoadingVue from 'vue-loading-overlay'
+  export default {
+    name: 'Loading',
+    props: {
+      value: {
+        type: Boolean,
+        default: false
+      },
+      isFullPage: {
+        type: Boolean,
+        default: false
+      }
+    },
+    components: {
+      LoadingVue
+    }
+  }
+</script>
+
+<style>
+  /*@-webkit-keyframes spinAround{*/
+    /*from{*/
+      /*-webkit-transform:rotate(0deg);transform:rotate(0deg)*/
+    /*}to{*/
+           /*-webkit-transform:rotate(359deg);transform:rotate(359deg)*/
+         /*}*/
+  /*}*/
+  /*@keyframes spinAround{*/
+    /*from{*/
+      /*-webkit-transform:rotate(0deg);transform:rotate(0deg)*/
+    /*}to{*/
+           /*-webkit-transform:rotate(359deg);transform:rotate(359deg)*/
+         /*}*/
+  /*}*/
+  /*.loading-overlay{*/
+    /*bottom:0;*/
+    /*left:0;*/
+    /*position:absolute;*/
+    /*right:0;*/
+    /*top:0;*/
+    /*align-items:center;*/
+    /*display:none;*/
+    /*justify-content:center;*/
+    /*overflow:hidden;*/
+    /*z-index:1*/
+  /*}*/
+  /*.loading-overlay.is-active{*/
+    /*display:flex*/
+  /*}*/
+  /*.loading-overlay.is-full-page{*/
+    /*z-index:999;*/
+    /*position:fixed*/
+  /*}*/
+  /*.loading-overlay.is-full-page .loading-icon:after{*/
+    /*top:calc(50% - 2.5em);*/
+    /*left:calc(50% - 2.5em);*/
+    /*width:5em;height:5em*/
+  /*}*/
+  /*.loading-overlay .loading-background{*/
+    /*bottom:0;*/
+    /*left:0;*/
+    /*position:absolute;*/
+    /*right:0;*/
+    /*top:0;*/
+    /*background:#fff;*/
+    /*opacity:0.4 !important;*/
+  /*}*/
+  /*.loading-overlay .loading-icon{*/
+    /*position:relative*/
+  /*}*/
+  /*.loading-overlay .loading-icon:after{*/
+    /*-webkit-animation:spinAround 500ms infinite linear;*/
+    /*animation:spinAround 500ms infinite linear;*/
+    /*border:2px solid #2196F3;*/
+    /*border-radius:290486px;*/
+    /*border-right-color:transparent;*/
+    /*border-top-color:transparent;*/
+    /*content:"";*/
+    /*display:block;*/
+    /*height:5em;*/
+    /*position:relative;*/
+    /*width:5em;*/
+    /*position:absolute;*/
+    /*top:calc(50% - 1.5em);*/
+    /*left:calc(50% - 1.5em);*/
+    /*width:3em;*/
+    /*height:3em;*/
+    /*border-width:0.5em*/
+  /*}*/
+</style>

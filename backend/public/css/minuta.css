@@ -1,0 +1,106 @@
+@page {
+    margin: 10mm 20mm;
+}
+
+html{
+    padding: 0 0;
+}
+
+body{
+    width: 100%;
+    margin-top: 14mm;
+    font-family: 'Helvetica';
+    font-size: 3.5mm;
+}
+
+/*table tr th, table tr td {*/
+/*font-size: 3.4mm !important;*/
+/*}*/
+
+/** HEAD OF THE HEAR **/
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    height: 35mm;
+    font-size: 2.5mm;
+}
+/*header {*/
+/*position: fixed;*/
+/*left: 0;*/
+/*top: 0;*/
+/*right: 0;*/
+/*height: 30mm;*/
+/*text-align: center;*/
+/*margin-top: 1.5mm;*/
+/*!*background-color: #17a2b8;*!*/
+/*}*/
+
+header div.logo {
+    text-align: left;
+    margin-left: 1.8mm;
+}
+
+header div.logo img{
+    height: 25mm;
+}
+
+header div:nth-child(2) {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1mm;
+    /*background-color: #1c7430;*/
+}
+
+.texto-cabecera {
+    text-align: right !important;
+    margin-right: 1.9mm;
+    top: 0 !important;
+}
+
+/** BODY OF THE HEAR **/
+main {
+    top: 20mm;
+    position: relative !important;
+    margin-bottom: 90px;
+}
+
+div.tabla-1 table {
+    width: 100%;
+}
+
+/** FOOTER **/
+
+footer {
+    position: fixed !important;
+    bottom: 10mm;
+    left: 0;
+    right: 0;
+    top: auto;
+    height: 10px;
+    font-size: 2.5mm;
+}
+
+.footer_2 {
+    margin-top: 0px;
+}
+
+.footer_2 table {
+    width: 100%;
+}
+
+.footer_image {
+    text-align: left !important;
+    padding-left: 20px !important;
+}
+
+.footer_image img {
+    height: 9mm;
+}
+
+.text-tiny{
+    font-size: 2.4mm;
+}

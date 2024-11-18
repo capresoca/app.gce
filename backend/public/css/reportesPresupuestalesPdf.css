@@ -1,0 +1,206 @@
+@page {
+    margin: 50px 60px;
+}
+
+body{
+    width: 100%;
+    margin-top: 8mm;
+    margin-left: 4mm;
+    margin-right: 4mm;
+    /*margin-bottom: 30mm;*/
+    /*border: #000000 0.4mm solid;*/
+    font-family: 'Helvetica';
+    /*font-size: 2.7mm;*/
+    font-size: 2.7mm;
+}
+
+table tr th, table tr td {
+    font-size: 3.2mm !important;
+}
+
+/** HEAD OF THE HEAR **/
+
+.header {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 24mm;
+    text-align: center;
+}
+
+.header div:first-child {
+    /*background-color: #005cbf;*/
+    /*height: 20mm;*/
+}
+
+.header div.logo {
+    text-align: center;
+}
+
+.header div.logo img{
+    height: 20mm;
+}
+
+/*.header div:nth-child(2) {*/
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+    /*!*padding-top: 1mm;*!*/
+    /*!*background-color: #1c7430;*!*/
+/*}*/
+
+/** BODY OF THE HEAR **/
+main {
+    /*top: 25mm;*/
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.main div:nth-child(3) h3{
+    padding-bottom: 0 !important;
+}
+
+div.body_1 {
+    position: relative;
+    top: 10mm !important;
+    /*background-color: #1c7430;*/
+    /*height: 15px;*/
+    /*display: block !important;*/
+    /*padding-bottom: 2px !important;*/
+}
+
+.text_1 {
+    text-align: justify !important;
+    display: block;
+    font-size: 1.2em;
+    padding-right: 1.1mm;
+}
+
+.sub-title {
+    text-align: center !important;
+}
+
+.sub-title h3 {
+    font-weight: bold;
+}
+
+div.tabla-1 table {
+    width: 100%;
+}
+
+/** FOOTER **/
+
+footer {
+    position: fixed !important;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    top: auto;
+    /*line-height: 35px;*/
+    /*background-color: #1c7430 !important;*/
+}
+
+.footer_2 {
+    margin-top: 0;
+}
+
+.footer_2 table {
+    width: 100%;
+}
+
+.footer_image {
+    text-align: center !important;
+}
+
+.footer_image img {
+    height: 9mm;
+}
+
+div.table_body .table_foot tfoot tr > td:first-child {
+    font-size: 3mm;
+    font-weight: lighter;
+}
+
+div.table_body .table_foot tfoot:nth-child(2) tr > td {
+    font-size: 2.6mm !important;
+    font-weight: lighter;
+    /*background-color: #ffe8a1;*/
+}
+
+
+/*** OPTIONS CLASS ***/
+.table-collapse {
+    border-collapse: collapse;
+}
+
+.celda {
+    border: .2mm solid #000 !important;
+}
+
+.color_grey {
+    background-color: rgba(88, 88, 88, 0.2);
+}
+
+.border_bottom {
+    border-bottom: 0.2mm solid #000 !important;
+}
+
+.border_top {
+    border-top: 0.2mm solid #000 !important;
+}
+
+.borde_derecho {
+    border-right: 0.2mm solid #000 !important;
+}
+
+.borde_izquierdo {
+    border-left: 0.2mm solid #000 !important;
+}
+
+.none_border_bottom {
+    border-bottom: none !important;
+}
+.none_border_top {
+    border-top: none !important;
+}
+.none_borde_izquierdo {
+    border-left: none !important;
+}
+
+.none_borde_derecho {
+    border-right: none !important;
+}
+.text_center {
+    text-align: center !important;
+}
+
+.text_right {
+    text-align: right !important;
+}
+
+.text_left {
+    text-align: left !important;
+}
+
+.text_justify {
+    text-align: justify !important;
+}
+
+.negrilla {
+    font-weight: bolder !important;
+}
+
+.basica-text {
+    font-weight: normal !important;
+}
+
+.negrilla-2 {
+    font-weight: bold !important;
+}
+
+div.saltopagina {
+    display:block;
+    page-break-before:always;
+}
+/*******************/

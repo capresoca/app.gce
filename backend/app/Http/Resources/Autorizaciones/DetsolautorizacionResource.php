@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Http\Resources\Autorizaciones;
+
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class DetsolautorizacionResource extends JsonResource
+{
+    /**
+     * Transform the resource into an array.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return array
+     */
+    public function toArray($request)
+    {
+        return parent::toArray($request);
+    }
+}

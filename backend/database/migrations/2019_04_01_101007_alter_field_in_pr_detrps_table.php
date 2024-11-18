@@ -1,0 +1,23 @@
+<?php
+
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class AlterFieldInPrDetrpsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        DB::statement("ALTER TABLE `pr_detrps` 
+                            CHANGE COLUMN `valor_ven` `valor` DOUBLE NOT NULL DEFAULT 0 ,
+                            CHANGE COLUMN `valor_debito` `valor_debito` DOUBLE NULL DEFAULT 0 ,
+                            CHANGE COLUMN `valor_credito` `valor_credito` DOUBLE NULL DEFAULT 0 ,
+                            CHANGE COLUMN `valor_ejecutado` `valor_ejecutado` DOUBLE NULL DEFAULT 0");
+    }
+}

@@ -1,0 +1,263 @@
+html{
+    padding: 0 0;
+}
+
+body{
+    width: 100%;
+    margin-left: 10mm;
+    margin-right: 10mm;
+    /*border: #000000 0.4mm solid;*/
+    font-size: 2.7mm;
+    font-family: 'Helvetica', sans-serif;
+}
+/*
+____________________________________________________________
+ENCABEZADO
+____________________________________________________________
+*/
+.logo{
+    margin-top: 0;
+    display: inline;
+    float: left;
+    width: 60mm;
+    height: 15mm;
+    border-left: none;
+    border-top:none;
+    padding: 0.5mm;
+}
+
+.logo img{
+    margin: 0 auto;
+    height: 25mm;
+    /*padding-left: 17mm*/
+}
+
+.actual_fecha{
+    width: 100mm;
+    height: 10mm;
+    padding-top: 18mm;
+    text-align: right;
+    /*border: #000000 0.4mm solid;*/
+    position: fixed;
+    float: right;
+}
+
+.actual_fecha p {
+    margin-bottom: 1mm;
+}
+
+
+/*
+____________________________________________________________
+Cuerpo de clase MAIN
+____________________________________________________________
+*/
+
+.title {
+    margin: 0 auto;
+    /*background: #17a2b8;*/
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 0;
+    float: top;
+    top: 11%;
+}
+.title div {
+    font-size: 13pt;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    /*background-color: chartreuse;*/
+}
+
+.title div:nth-child(2) {
+    font-size: 12pt;
+}
+
+/* TABLAS*/
+.tablas {
+    /*background: darkcyan;*/
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 18%;
+}
+
+.tablas table {
+    width: 100%;
+    border-top: none;
+}
+
+/**/
+.detail {
+    border-bottom: 1px solid black;
+}
+
+.tablas p {
+    margin-top: 0;
+    margin-bottom: 1mm;
+    font-size: 8pt;
+    font-weight: 600;
+}
+
+td {
+    padding: 1mm 0 0 0;
+    padding-left: 4mm;
+    padding-right: 4mm;
+}
+
+.detail td.label {
+    width: 20%;
+    /*font-size: 9.5pt;*/
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.detail td:nth-child(2) {
+    width: 80mm;
+}
+
+.detail td:nth-child(3) {
+    margin-left: 0 !important;
+}
+
+.detail td.field {
+    text-align: left;
+    padding-left: 1em;
+}
+/* Segunda tabla
+____________________________
+Cabecera
+*/
+.tablas .list{
+    width: 100%;
+    border-top: 1px solid black;
+    /*border-bottom: 1px solid black;*/
+    margin: 0 0;
+}
+
+.tablas .list tr.head > td {
+    padding-top: 0;
+    padding-bottom: 0.5mm;
+    border-bottom: 1px solid black;
+}
+
+.tablas .list tr.head td {
+    font-size: 8pt;
+    white-space: nowrap;
+    padding-right: 0.65em;
+}
+
+.tablas .list tr.head td.valor {
+    font-size: 7pt;
+}
+
+.tablas .list tr.head td:nth-child(4) {
+    /*padding-right: 0.8mm;*/
+}
+
+tr.head > td.center {
+    text-align: center;
+}
+
+/*____________________________*/
+/* Cuerpo de tabla 2*/
+
+.list tr.list_row td.codigo {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 1.5mm;
+    position: fixed;
+    /*padding-top: 5.40mm;*/
+}
+
+.list tr.list_row td.codigo span {
+    float: top;
+}
+
+.list tr.list_row td.descripcion {
+    padding: 0 0;
+    text-align: left;
+    width: 50%;
+}
+
+.derecha {
+    position: fixed;
+    text-align: right !important;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 15%;
+    /*width: 15% !important;*/
+    /*padding-top: 5.40mm;*/
+}
+
+.derecha span {
+    float: right;
+}
+
+/*______________*/
+/*Footer tabla : Valor total*/
+
+.list_row .fijar {
+    position: fixed;
+    margin-top: 5mm !important;
+    padding-top: 0.5pt !important;
+}
+
+.list_row .total {
+    position: fixed;
+    padding-right: 0;
+    padding-top: 1mm;
+    padding-bottom: 7mm;
+}
+
+.list_row .total span {
+    float: right;
+    /*font-size: 8pt;*/
+    font-weight: bold;
+}
+
+.totUno {
+    font-weight: lighter !important;
+    font-size: 7.5pt;
+    padding-bottom: 0;
+}
+
+.list_row .val_tot {
+    position: fixed;
+    padding-right: 0;
+    padding-top: 0.76mm;
+}
+
+.list_row .val_tot span {
+    float: right;
+    font-weight: bold;
+    padding-right: 0;
+}
+/*_______________*/
+/*FOOTER         */
+
+#footer {
+    /*margin: 0 auto;*/
+    width: 100%;
+    height: 1%;
+    text-align: justify;
+    position: fixed;
+    font-size: 0.9em;
+    bottom: 0.5%;
+    float: bottom;
+    padding: 0 0;
+    margin: 0 0;
+    color: #6D6D6D;
+}
+
+#footer div {
+    width: 100%;
+}
+
+#footer div span:nth-child(2) {
+    float: right;
+    padding-right: 0;
+}

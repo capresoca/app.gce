@@ -1,0 +1,19 @@
+@if(count($fecha)===8)
+    <td>{{$fecha[6]}}</td>
+    <td>{{$fecha[7]}}</td>
+    <td>{{$fecha[4]}}</td>
+    <td>{{$fecha[5]}}</td>
+    <td>{{$fecha[0]}}</td>
+    <td>{{$fecha[1]}}</td>
+    <td>{{$fecha[2]}}</td>
+    <td>{{$fecha[3]}}</td>
+@else
+    <td>D</td>
+    <td>D</td>
+    <td>M</td>
+    <td>M</td>
+    <td>A</td>
+    <td>A</td>
+    <td>A</td>
+    <td>A</td>
+@endif

@@ -1,0 +1,2154 @@
+
+@page {
+    margin-top: 7mm;
+    margin-left: 5mm;
+}
+
+html{
+    padding: 0 0;
+}
+
+body{
+    width: 206mm;
+    height: 346mm;
+    border: #5a6268 0.4mm solid;
+    font-family: 'Helvetica';
+    font-size: 2.7mm;
+}
+.watermark{
+    position: fixed;
+    z-index: -1000;
+    color: #a8aaa5;
+    font-size: 35mm;
+    font-weight: bold;
+    top: 100mm;
+    left: 0mm;
+    transform: rotate(-45deg);
+}
+.celda{
+    border: #5a6268 0.4mm solid;
+    display: inline;
+    position: relative;
+    float: left;
+}
+
+.celda-laterales{
+    border-left: #5a6268 0.4mm solid;
+    border-right: #5a6268 0.4mm solid;
+}
+
+.dato{
+    text-transform: uppercase;
+    font-size: 3.2mm;
+}
+
+.check{
+    display: inline-block;
+    height: 3mm;
+    width: 3mm;
+    border: #5a6268 0.4mm solid;
+    margin-top: 1mm;
+    font-weight: bold;
+    text-align: center;
+}
+
+.minicelda{
+    display: inline-block;
+    position: fixed;
+    height: 3mm;
+    width: 8mm;
+    border: #5a6268 0.4mm solid;
+    margin-top: 1mm;
+    font-weight: bold;
+    text-align: center;
+}
+
+.txt{
+    display: inline-block;
+    position: fixed;
+}
+
+.op-check{
+    padding-left: 1mm;
+    top:1mm;
+}
+
+
+
+table {
+    margin-bottom: 2em;
+}
+
+
+
+th,td {
+    padding: 0.2mm 0.7mm;
+}
+
+table.collapse {
+    border-collapse: collapse;
+    border: 1pt solid black;
+}
+
+table.collapse td,th {
+    border: 1pt solid black;
+}
+
+div.saltopagina{
+    display:block;
+    page-break-before:always;
+}
+.carnetizacion {
+    margin: 2px;
+}
+.carnetizacion p{
+    margin: 0;
+    padding: 0;
+}
+
+.carnetizacion table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.carnetizacion table  th
+{
+    border: none;
+    font-size: 9px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid gray;
+}
+.carnetizacion table  td
+{
+    border-bottom: 1px solid gray;
+    padding: 5px 2px 5px 2px;
+    font-size: 9px;
+}
+.info-afiliado{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.info-afiliado p {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*
+____________________________________________________________
+ENCABEZADO
+____________________________________________________________
+*/
+.logo{
+    margin-top: 0;
+    display: inline;
+    float: left;
+    width: 60mm;
+    height: 15mm;
+    border-left: none;
+    border-top:none;
+    padding: 0.5mm;
+}
+.logo img{
+    margin: 0 auto;
+    height: 14.5mm;
+    padding-left: 17mm
+}
+
+.rad {
+    margin-top: 5mm;
+    display: inline;
+    float: right;
+    height: 11mm;
+    width: 30mm;
+
+}
+.rad.fecha {
+    text-align: center;
+    border-right: none;
+}
+
+.rad.numero {
+    text-align: center;
+    margin-right: 5mm;
+}
+
+.rad-title{
+    padding-top: 1mm;
+    height: 4.5mm;
+}
+
+.border-bottom{
+    border-bottom: #5a6268 0.4mm solid;
+}
+
+
+
+.tit-datos-tramite {
+    display: block;
+}
+
+.header {
+    height: 18mm;
+}
+
+.titulo-seccion {
+    padding-left: 1mm;
+    font-weight: bolder;
+}
+
+#advertencia-instrucciones {
+    padding-left: 22mm;
+}
+
+#numero-pagina {
+    padding-left: 32mm;
+}
+
+#fecha-rad {
+    position: fixed;
+    display: block;
+    top: 11mm;
+    left: 176mm;
+}
+
+#fecha-rad table tbody tr td {
+    padding: 1.1mm 0.6mm;
+    width: 2.23mm;
+    text-align: center;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+
+.tit-campo{
+    padding-left: 0.5mm;
+}
+
+/*
+____________________________________________________________
+GENER
+____________________________________________________________
+*/
+
+/*
+____________________________________________________________
+FILA 3 PUNTOS 1, 2 Y 3
+____________________________________________________________
+*/
+#fila-3 {
+    height: 13.81mm;
+}
+
+#tipo-tramite {
+    display: inline;
+    float: left;
+    width: 63.5mm;
+    height: 13mm;
+    border-left: none;
+}
+
+#tipo-afiliacion {
+    display: inline;
+    float: left;
+    width: 98mm;
+    height: 13mm;
+    border-left: none;
+}
+
+#regimen {
+    display: inline;
+    float: left;
+    width: 44mm;
+    height: 13mm;
+    border-left: none;
+    border-right: none;
+}
+
+#ops-tipo-tramite{
+    padding-top: 4mm;
+    padding-left: 2mm;
+}
+
+#tit-tip-afiliacion{
+    display: inline;
+    margin-top: 3mm;
+    height: 5mm;
+
+}
+
+#txt-2{
+    left: 1mm;
+    top:22mm;
+    height: 8mm;
+    width: 27mm;
+
+}
+
+#txt-2-a{
+    display: inline-block;
+    position: fixed;
+    top: 25mm;
+    left: 32mm;
+
+}
+
+#txt-2-a-1{
+    display: inline-block;
+    position: fixed;
+    top: 21.3mm;
+    left: 50mm;
+    width: 45mm;
+
+}
+
+#txt-2-a-2{
+    display: inline-block;
+    position: fixed;
+    top: 25.6mm;
+    left: 49.9mm;
+    width: 45mm;
+
+}
+
+#txt-2-b{
+    display: inline-block;
+    position: fixed;
+    top: 29.8mm;
+    left: 10mm;
+    width: 45mm;
+
+
+}
+
+#txt-2-c{
+    display: inline-block;
+    position: fixed;
+    top: 29.8mm;
+    left: 40mm;
+    width: 45mm;
+}
+
+#txt-2-d{
+    display: inline-block;
+    position: fixed;
+    top: 29.8mm;
+    left: 73.3mm;
+    width: 45mm;
+}
+
+#txt-3-a{
+    display: inline-block;
+    position: fixed;
+    top: 25.6mm;
+    left: 19mm;
+    width: 45mm;
+}
+
+#txt-3-b{
+    display: inline-block;
+    position: fixed;
+    top: 29.8mm;
+    left: 19mm;
+    width: 45mm;
+}
+
+#check-3-b{
+    margin-left: 1.1mm;
+}
+
+
+/*
+____________________________________________________________
+FILA 4 PUNTOS 4 y 5
+____________________________________________________________
+*/
+
+#fila-4 {
+    height: 7mm;
+}
+#tipo-afiliado {
+    width: 87mm;
+    height: 7mm;
+    border-left: none;
+    border-top: none;
+}
+
+#tipo-cotizante {
+    width: 118.5mm;
+    height: 7mm;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+#txt-4-a{
+    top: 37.2mm;
+    left: 12mm;
+    width: 45mm;
+}
+
+#txt-4-b{
+    top: 37.2mm;
+    left: 32.5mm;
+    width: 48mm;
+}
+
+#txt-4-c{
+    top: 37.2mm;
+    left: 63mm;
+    width: 45mm;
+}
+
+#txt-5-a{
+    top: 37.2mm;
+    left: 5mm;
+    width: 45mm;
+}
+
+#txt-5-b{
+    top: 37.2mm;
+    left: 29mm;
+    width: 48mm;
+}
+
+#txt-5-c{
+    top: 37.2mm;
+    left: 55mm;
+    width: 45mm;
+}
+
+#txt-5-d{
+    top: 35.5mm;
+    left: 80mm;
+    width: 45mm;
+    height: 4mm;
+}
+
+#txt-5-e{
+    top: 38.6mm;
+    left: 80mm;
+    width: 24mm;
+    height: 3.7mm;
+    border-left: #5a6268 0.4mm solid;
+    font-size: 2.3mm;
+}
+
+#check-5-e{
+    top: 37.3mm;
+    left: 104mm;
+    height: 3mm;
+    width: 8mm;
+    border: #5a6268 0.4mm solid;
+    margin-top: 1mm;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*
+____________________________________________________________
+FILA 5 titulo A. Afiliacion y II DATOS BASICOS ...
+____________________________________________________________
+*/
+
+#fila-5{
+    height: 10mm;
+}
+
+#tit-a{
+    display: inline-block;
+    position: fixed;
+    top: 40mm;
+    left: 91mm;
+    width: 28mm;
+    height: 3.7mm;
+    font-size: 3.5mm;
+    font-weight: bold;
+}
+
+#tit-ii{
+    display: inline-block;
+    position: fixed;
+    top: 49mm;
+    left: 1mm;
+    width: 120mm;
+    height: 3.7mm;
+    font-weight: bolder;
+}
+
+/*
+____________________________________________________________
+FILA 6 PUNTO 6 Nombre y Apellidos
+____________________________________________________________
+*/
+
+#fila-6{
+    height: 10mm;
+    border-bottom: #5a6268 0.4mm solid;
+    border-top: #5a6268 0.4mm solid;
+}
+
+#txt-6-1{
+    top: 59.2mm;
+    left: 1mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+}
+
+#txt-6-2{
+    top: 59.2mm;
+    left: 51.57mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+}
+
+#txt-6-3{
+    top: 59.2mm;
+    left: 103.6mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+    border-left: none;
+}
+#txt-6-4{
+    top: 59.2mm;
+    left: 156mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+    border: none;
+}
+#dato-6-1{
+    font-weight: bold;
+    top: 55.5mm;
+    left: 1mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+}
+
+#dato-6-2{
+    font-weight: bold;
+    top: 55.5mm;
+    left: 51.2mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+}
+
+#dato-6-3{
+    font-weight: bold;
+    top: 55.5mm;
+    left: 103.6mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+    border-left: none;
+}
+#dato-6-4{
+    font-weight: bold;
+    top: 55.5mm;
+    left: 156mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+    border: none;
+}
+
+/*
+____________________________________________________________
+FILA 7 puntos 7,8,9,10
+____________________________________________________________
+*/
+
+#fila-7{
+    height: 7.5mm;
+}
+
+#celda-7 {
+    width: 51.2mm;
+    height: 7.5mm;
+    border-left: none;
+    border-top: none;
+}
+
+#celda-8 {
+    width: 51.2mm;
+    height: 7.5mm;
+    border-left: none;
+    border-top: none;
+}
+#celda-9 {
+    width: 51.2mm;
+    height: 7.5mm;
+    border-left: none;
+    border-top: none;
+}
+
+#celda-10 {
+    width: 51.2mm;
+    height: 7.5mm;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+#check-7-1 {
+
+    top: 66.5mm;
+    left: 34mm;
+}
+
+#txt-8-1 {
+    top: 66.5mm;
+    left: 22mm;
+    height: 3mm;
+    width: 8mm;
+    margin-top: 1mm;
+    font-weight: bold;
+    text-align: center;
+}
+
+#txt-9-1 {
+    top: 65.5mm;
+    left: 28mm;
+    height: 5mm;
+    width: 20mm;
+}
+
+#txt-9-2 {
+    top: 65.5mm;
+    left: 8mm;
+    height: 5mm;
+    width: 20mm;
+}
+
+#fecha-10 {
+    position: fixed;
+    display: block;
+    top: 66mm;
+    left: 164mm;
+}
+
+/*
+____________________________________________________________
+FILA 8 Titulo DATOS COMPLEMENTARIOS
+____________________________________________________________
+*/
+
+#fila-8 {
+    height: 8mm;
+    display: block;
+}
+
+#tit-iii{
+    display: inline-block;
+    position: fixed;
+    top: 71.5mm;
+    left: 1mm;
+    width: 120mm;
+    height: 3.7mm;
+    font-weight: bolder;
+}
+
+#tit-iii-1{
+    display: inline-block;
+    position: fixed;
+    top: 74.5mm;
+    left: 1mm;
+    width: 120mm;
+    height: 3.7mm;
+    font-weight: bolder;
+}
+/*
+____________________________________________________________
+FILA 8 puntos 11, 12 ,13, 14
+____________________________________________________________
+*/
+
+#fila-9{
+    height: 8.31mm ;
+    display: block;
+}
+#celda-11 {
+    width: 37.2mm;
+    height: 7.5mm;
+    border-left: none;
+}
+
+#celda-12 {
+    width: 79.2mm;
+    height: 7.5mm;
+    border-left: none;
+}
+#celda-13 {
+    width: 37.2mm;
+    height: 7.5mm;
+    border-left: none;
+}
+
+#celda-14 {
+    width: 51.2mm;
+    height: 7.5mm;
+    border-left: none;
+}
+#check-11-1 {
+    top: 82.5mm;
+    left: 20mm;
+}
+
+#txt-12-1 {
+    top: 82.5mm;
+    left: 20mm;
+    height: 5mm;
+}
+
+#check-12-1{
+    display: inline;
+    position: fixed;
+    top: 81.5mm;
+    left: 26mm;
+    height: 5mm;
+    font-weight: bold;
+}
+
+#check-12-1 .check{
+    color: #4e555b;
+}
+#check-12-1 span{
+    margin-left: -2.3mm;
+    color: #000000;
+}
+#check-12-1 .check:first-child{
+    border-right: none;
+    margin-right: -1mm;
+}
+#check-12-1 .check:last-child{
+    border-left: none;
+    margin-left: -0.8mm;
+}
+
+#txt-12-2 {
+    top: 82.5mm;
+    left: 50mm;
+    height: 5mm;
+}
+
+#check-12-2{
+    display: inline;
+    position: fixed;
+    top: 81.5mm;
+    left: 63mm;
+    height: 5mm;
+    font-weight: bold;
+}
+
+#check-12-2 .check{
+    text-align: center;
+    color: #4e555b;
+}
+#check-12-2 span{
+    margin-left: -2.3mm;
+    color: #000000;
+}
+
+#check-12-2 .check:last-child{
+    border-left: none;
+    margin-left: -0.8mm;
+}
+
+#check-13-1{
+    top: 82.5mm;
+    left: 27mm;
+}
+
+#check-13-2{
+    top: 82.5mm;
+    left: 40mm;
+}
+
+/*
+____________________________________________________________
+FILA 10 puntos 15 - 17...
+____________________________________________________________
+*/
+
+#fila-10{
+    height: 9mm;
+}
+#celda-15 {
+    width: 68.4mm;
+    height: 8.5mm;
+    border-left: none;
+    border-top: none;
+}
+
+#celda-16 {
+    width: 68.4mm;
+    height: 8.5mm;
+    border-left: none;
+    border-top: none;
+}
+#celda-17 {
+    width: 68.4mm;
+    height: 8.5mm;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+#txt-15-1{
+    width: 68mm;
+    line-height: 2mm;
+    top:91mm;
+    left: 1mm;
+    font-weight: bold;
+}
+
+#txt-15-2{
+    width: 68mm;
+    line-height: 2mm;
+    top:91mm;
+    left: 1mm;
+    font-weight: bold;
+}
+
+
+/*
+____________________________________________________________
+FILA 11 Residencia: direccion, fijo, cel, email
+____________________________________________________________
+*/
+
+#separador-residencia{
+    position: fixed;
+    top:103.5mm;
+    left: 4mm;
+    width: 92%;
+    border: #5a6268 0.2mm solid;
+}
+
+#dato-18-1{
+    font-weight: bold;
+    text-align: center;
+    top: 98mm;
+    left: 5mm;
+    width: 65mm;
+    height: 3mm;
+}
+
+#txt-18-1{
+    text-align: center;
+    top: 101mm;
+    left: 5mm;
+    width: 65mm;
+    height: 3mm;
+}
+
+#dato-18-2{
+    font-weight: bold;
+    text-align: center;
+    top: 98mm;
+    left: 68.6mm;
+    width: 50mm;
+    height: 3mm;
+}
+
+#txt-18-2{
+    text-align: center;
+    top: 101mm;
+    left: 68.6mm;
+    width: 50mm;
+    height: 3mm;
+}
+#dato-18-3{
+    font-weight: bold;
+    text-align: center;
+    top: 98mm;
+    left: 119.5mm;
+    width: 40mm;
+    height: 3mm;
+}
+#txt-18-3{
+    text-align: center;
+    border-left: none;
+    top: 101mm;
+    left: 119.5mm;
+    width: 40mm;
+    height: 3mm;
+}
+#dato-18-4{
+    font-weight: bold;
+    text-align: center;
+    top: 98mm;
+    left: 160mm;
+    width: 45mm;
+    height: 3mm;
+}
+#txt-18-4{
+    text-align: center;
+    top: 101mm;
+    left: 160mm;
+    width: 45mm;
+    height: 3mm;
+}
+/*
+____________________________________________________________
+FILA 12 Residencia: municipio, zona, localidad,departamento
+____________________________________________________________
+*/
+#fila-12{
+    height: 12mm;
+    border-bottom: #5a6268 0.4mm solid;
+}
+
+#txt-18-5{
+    text-align: center;
+    top: 110mm;
+    left: 5mm;
+    width: 45mm;
+    height: 3mm;
+}
+
+#dato-18-5{
+    text-align: center;
+    font-weight: bold;
+    top: 106mm;
+    left: 5mm;
+    width: 45mm;
+    height: 3mm;
+}
+
+#txt-18-6{
+    text-align: center;
+    top: 110mm;
+    left: 50mm;
+    width: 55mm;
+    height: 3mm;
+}
+
+#dato-18-7{
+    border-left: none;
+    text-align: center;
+    font-weight: bold;
+    top: 106mm;
+    left: 106mm;
+    width: 50mm;
+    height: 3mm;
+}
+#txt-18-7{
+    border-left: none;
+    text-align: center;
+    top: 110mm;
+    left: 106mm;
+    width: 50mm;
+    height: 3mm;
+}
+#dato-18-8{
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    top: 106mm;
+    left: 156.5mm;
+    width: 50mm;
+    height: 3mm;
+}
+#txt-18-8{
+    border: none;
+    text-align: center;
+    top: 110mm;
+    left: 156.5mm;
+    width: 50mm;
+    height: 3mm;
+}
+
+#txt-18-7-1{
+    top: 106mm;
+    left: 57mm;
+    width: 15mm;
+    height: 3mm;
+}
+
+#txt-18-7-2{
+    top: 104.5mm;
+    left: 72mm;
+    width: 15mm;
+    height: 3mm;
+}
+
+#check-18-7-2{
+    top: 103.5mm;
+    left: 88mm;
+}
+
+#check-18-7-3{
+    top: 107.5mm;
+    left: 88mm;
+}
+
+#txt-18-7-3{
+    top: 108.5mm;
+    left: 72mm;
+    width: 15mm;
+    height: 3mm;
+}
+
+/*
+____________________________________________________________
+FILA 13 TITULO IV: DATOS DE IDENTIFICACION DE LOS MIEMBROS ...
+____________________________________________________________
+*/
+
+#fila-13 {
+    height: 9mm;
+    display: block;
+}
+
+#tit-iv{
+    display: inline-block;
+    position: fixed;
+    top: 114mm;
+    left: 1mm;
+    width: 120mm;
+    height: 3.7mm;
+    font-weight: bolder;
+}
+
+#tit-iv-1{
+    display: inline-block;
+    position: fixed;
+    top: 117.5mm;
+    left: 1mm;
+    width: 120mm;
+    height: 3.7mm;
+    font-weight: bolder;
+}
+
+/*
+____________________________________________________________
+FILA 14 PUNTO 19 Nombre y Apellidos
+____________________________________________________________
+*/
+
+#fila-14{
+    height: 10mm;
+    border-bottom: #5a6268 0.2mm solid;
+    border-top: #5a6268 0.2mm solid;
+}
+
+#txt-14-1{
+    top: 129mm;
+    left: 1mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+}
+
+#txt-14-2{
+    top: 129mm;
+    left: 51.57mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+}
+
+#txt-14-3{
+    top: 129mm;
+    left: 103.6mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+    border-left: none;
+}
+#txt-14-4{
+    top: 129mm;
+    left: 156mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+    border: none;
+}
+#dato-14-1{
+    font-weight: bold;
+    top: 125mm;
+    left: 1mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+}
+
+#dato-14-2{
+    font-weight: bold;
+    top: 125mm;
+    left: 51.2mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+}
+
+#dato-14-3{
+    font-weight: bold;
+    top: 125mm;
+    left: 103.6mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+    border-left: none;
+}
+#dato-14-4{
+    font-weight: bold;
+    top: 125mm;
+    left: 156mm;
+    width: 51.2mm;
+    height: 3.7mm;
+    text-align: center;
+    border: none;
+}
+
+/*
+____________________________________________________________
+FILA 15 puntos 20-23
+____________________________________________________________
+*/
+
+#fila-15{
+    height: 7.5mm;
+}
+
+#celda-20 {
+    width: 51.2mm;
+    height: 7.5mm;
+    border-left: none;
+    border-top: none;
+}
+
+#celda-21 {
+    width: 51.2mm;
+    height: 7.5mm;
+    border-left: none;
+    border-top: none;
+}
+#celda-22 {
+    width: 51.2mm;
+    height: 7.5mm;
+    border-left: none;
+    border-top: none;
+}
+
+#celda-23 {
+    width: 51.2mm;
+    height: 7.5mm;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+#check-20-1 {
+    top: 136mm;
+    left: 34mm;
+}
+
+#txt-21-1 {
+    top: 136mm;
+    left: 22mm;
+    height: 3mm;
+    width: 8mm;
+    margin-top: 1mm;
+    font-weight: bold;
+    text-align: center;
+}
+
+#txt-22-1 {
+    top: 135mm;
+    left: 28mm;
+    height: 5mm;
+    width: 20mm;
+}
+
+#txt-22-2 {
+    top: 135mm;
+    left: 8mm;
+    height: 5mm;
+    width: 20mm;
+}
+
+#fecha-23 {
+    position: fixed;
+    display: block;
+    top: 135.5mm;
+    left: 164mm;
+}
+
+/*
+____________________________________________________________
+FILA 16
+____________________________________________________________
+*/
+
+#fila-16{
+    padding-top: 1mm;
+    height: 3.5mm;
+    font-weight: bold;
+    border-bottom: 0.4mm solid #000000;
+}
+
+/*
+____________________________________________________________
+Tabla 24. Tabla apellido nombres de beneficiarios
+____________________________________________________________
+*/
+
+
+
+
+#tabla-beneficiarios{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+    margin-left: 0.4mm;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0mm;
+}
+
+#tabla-beneficiarios td {
+    text-align: center;
+    height: 4mm;
+}
+#tabla-beneficiarios tr {
+    border-right: none;
+}
+
+#tabla-beneficiarios .last{
+    border-right: none;
+}
+
+
+.head td{
+    height: 2mm;
+}
+
+#tabla-beneficiarios tr:first-child td {
+    border-top: none;
+    font-weight: normal;
+    text-transform: none;
+    text-align: left;
+ }
+
+
+
+#tabla-beneficiarios tr td:first-child {
+    border-left: none;
+    width: 3%;
+}
+
+#mas{
+    width: 4%;
+    font-weight: normal;
+    text-transform: none;
+    border-right: 0.4mm solid #000000;
+}
+#fem{
+    width: 4.5%;
+    font-weight: normal;
+    text-transform: none;
+    border-left: 0.4mm solid #000000;
+
+}
+
+.tabla-fecha{
+    background: #9fcdff;
+    vertical-align: baseline;
+}
+
+/*
+____________________________________________________________
+FILA 17  Titulo V
+____________________________________________________________
+*/
+
+#fila-17{
+    padding-top: 1mm;
+    height: 3.5mm;
+    font-weight: bold;
+}
+
+#tit-v{
+    font-size: 2.4mm;
+}
+
+/*
+____________________________________________________________
+FILA 18 puntos 35,36,37,38
+____________________________________________________________
+*/
+
+#fila-18{
+    height: 11.9mm;
+}
+
+#celda-35 {
+    display: inline-block;
+    width: 71mm;
+    height: 11mm;
+    border-left: none;
+}
+
+#celda-36 {
+    display: inline-block;
+    width: 30mm;
+    height: 11mm;
+    border-left: none;
+}
+#celda-37 {
+    display: inline-block;
+    width: 60mm;
+    height: 11mm;
+    border-left: none;
+}
+
+#celda-38 {
+    display: inline-block;
+    width: 44mm;
+    height: 11mm;
+    border-left: none;
+    border-right: none;
+}
+
+#dato-35 {
+    padding-top: 1mm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#dato-36 {
+    border: #5a6268 0.4mm solid;
+    text-align: center;
+    width: 7mm;
+    height: 3mm;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 19mm;
+}
+
+#dato-37 {
+    padding-top: 1mm;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+#dato-37 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*
+____________________________________________________________
+FILA 19 puntos 39
+____________________________________________________________
+*/
+
+#fila-19{
+    height: 12mm;
+}
+
+.dato-39{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: -1mm;
+    font-weight: bold;
+}
+.txt-39{
+    display: inline-block;
+    text-align: center;
+    border: #5a6268 0.4mm solid;
+    border-top: none;
+    margin-left: -0.7mm;
+}
+#txt-39-1 {
+    width: 61mm;
+    border-left: #5a6268 0.4mm;
+    border-right: none;
+    margin-left: -0.1mm;
+}
+#txt-39-2{
+    width: 31mm;
+    border-right: none;
+}
+#txt-39-3{
+    width: 41mm;
+    border-right: none;
+}
+#txt-39-4{
+    width: 37mm;
+    border-right: none;
+}
+#txt-39-5{
+    width: 34mm;
+    border-right: none;
+}
+
+
+/*
+____________________________________________________________
+TITULO B
+____________________________________________________________
+*/
+#tit-b{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4mm;
+    width: 100%;
+}
+
+/*
+____________________________________________________________
+FILA 20 PUNTO 40 TIPO DE NOVEDAD
+____________________________________________________________
+*/
+
+#fila-20{
+    padding-top: 1mm;
+    border-top: #5a6268 0.4mm solid;
+}
+
+#fila-21{
+    position: relative;
+    font-size: 2.6mm;
+    width: 100%;
+    height: 50mm
+}
+
+#tit-40{
+    width: 100%;
+}
+
+#col-40-1{
+    position: absolute;
+    top:0mm;
+    left: 0mm;
+    width: 48%;
+    padding-left: 3mm;
+}
+
+#col-40-2{
+    position: absolute;
+    top:0mm;
+    right: 0mm;
+    width: 48%;
+    padding-left: 1mm;
+}
+
+#col-40-1 .check{
+    position: absolute;
+    top:-0.5mm;
+}
+
+#col-40-1 span{
+    padding-left: 4.3mm;
+}
+
+#col-40-2 .check{
+    position: absolute;
+    top:-0.5mm;
+}
+
+#col-40-2 span{
+    padding-left: 4.3mm;
+}
+
+
+
+#txt-40-5{
+    padding-left: 10mm;
+}
+
+#txt-40-13{
+    display: inline-block;
+}
+
+#span-40-13{
+    vertical-align: top;
+}
+
+
+#txt-40-5 .check{
+    width: 7mm;
+}
+
+#check-40-13-1{
+    position: relative;
+}
+#check-40-13-2{
+    top:-1mm;
+}
+
+/*
+____________________________________________________________
+FILA 22 PUNTO 40 TIPO DE NOVEDAD
+____________________________________________________________
+*/
+
+#fila-22{
+    border-top: #5a6268 0.4mm solid;
+    border-bottom: #5a6268 0.4mm solid;
+    padding-top: 0.8mm;
+}
+
+#tit-vi{
+    font-weight: bold;
+}
+
+
+/*
+____________________________________________________________
+FILA 23 PUNTO 41
+____________________________________________________________
+*/
+#fila-23{
+    position: relative;
+    height: 12mm;
+}
+#txt-41-1{
+    position: absolute;
+    text-align: center;
+    top:8mm;
+    width: 25%mm;
+    height: 3.5mm;
+    border-right: #5a6268 0.4mm solid;
+    border-bottom: #5a6268 0.4mm solid;
+}
+#txt-41-2{
+    position: absolute;
+    text-align: center;
+    top:8mm;
+    left: 25%;
+    width: 25%;
+    height: 3.5mm;
+    border-right: #5a6268 0.4mm solid;
+    border-bottom: #5a6268 0.4mm solid;
+}
+#txt-41-3{
+    position: absolute;
+    text-align: center;
+    top:8mm;
+    left: 50%;
+    width: 25%;
+    height: 3.5mm;
+    border-right: #5a6268 0.4mm solid;
+    border-bottom: #5a6268 0.4mm solid;
+}
+#txt-41-4{
+    position: absolute;
+    text-align: center;
+    top:8mm;
+    left: 75%;
+    width: 25%;
+    height: 3.5mm;
+    border-bottom: #5a6268 0.4mm solid;
+}
+
+/*
+____________________________________________________________
+FILA 24 PUNTO 41 segunda parte
+____________________________________________________________
+*/
+#fila-24{
+    position: relative;
+    border-bottom: #5a6268 0.4mm solid;
+    height: 8mm;
+}
+#celda-41-5{
+    position: absolute;
+    width: 33mm;
+    height: 8mm;
+    border-right: #5a6268 0.4mm solid;
+}
+#celda-41-5 .check{
+    width: 7mm;
+}
+#txt-41-5{
+    position: absolute;
+}
+
+#celda-41-6{
+    position: absolute;
+    width: 45mm;
+    height: 8mm;
+    left: 34mm;
+    top: 0mm;
+    border-right: #5a6268 0.4mm solid;
+}
+
+#txt-41-6{
+    position: absolute;
+    top: 4.7mm;
+    left: 0mm;
+}
+
+#celda-41-7{
+    position: absolute;
+    left: 80mm;
+    top:0mm;
+    width: 48mm;
+    height: 8mm;
+    border-right: #5a6268 0.4mm solid;
+}
+
+#txt-41-7{
+    position: absolute;
+    top: 3.3mm;
+    left: 0mm;
+}
+
+#celda-41-8{
+    position: absolute;
+    width: 37mm;
+    height: 8mm;
+    left: 130mm;
+    top:0mm;
+    border-right: #5a6268 0.4mm solid;
+}
+
+#txt-41-8-1{
+    position: absolute;
+    top: 3mm;
+    left: 0mm;
+}
+
+#celda-41-9{
+    position: absolute;
+    width: 38mm;
+    height: 8mm;
+    left: 168mm;
+    top:0mm;
+}
+#txt-41-9-1{
+    position: absolute;
+    left: 0mm;
+    top: 3mm;
+}
+
+/*
+____________________________________________________________
+FILA 25 PUNTO 43-45
+____________________________________________________________
+*/
+
+#fila-25{
+    position: relative;
+    height: 10mm;
+}
+
+#celda-43{
+    position: absolute;
+    width: 84mm;
+    height: 10mm;
+    border-right: #5a6268 0.4mm solid;
+}
+
+#celda-44{
+    position: absolute;
+    left: 84.5mm;
+    top:0mm;
+    height: 10mm;
+    width: 34mm;
+    border-right: #5a6268 0.4mm solid;
+}
+
+#txt-44{
+    position: absolute;
+    left: 12mm;
+    top: 2.5mm;
+}
+
+#txt-44 .check {
+    width: 7mm;
+}
+
+#celda-45{
+    position: absolute;
+    left: 118.5mm;
+    top:0mm;
+    width: 85mm;
+    height: 10mm;
+}
+
+/*
+____________________________________________________________
+FILA 26 DECLARACIONES Y AUTORIZACION Puntos 46-53
+____________________________________________________________
+*/
+
+#fila-46{
+    padding-left: 3mm;
+    padding-bottom: 1mm;
+}
+
+.decl .check {
+    position: absolute;
+    top:-0.3mm;
+    left: 0mm;
+}
+
+.decl{
+    position: relative;
+    padding-left: 4.5mm;
+}
+
+/*
+____________________________________________________________
+FILA 47 FIRMAS Puntos 54,55
+____________________________________________________________
+*/
+
+#fila-47{
+    position: relative;
+    height: 15mm;
+}
+
+#celda-54{
+    position: absolute;
+    top: 8.7mm;
+    left: 0mm;
+    border-right: 0.4mm #5a6268 solid;
+    height: 6.5mm;
+    width: 50%;
+    text-align: center;
+    line-height: 7.5mm;
+
+}
+
+
+#celda-55{
+    position: absolute;
+    top: 8.7mm;
+    left: 50%;
+    height: 6.5mm;
+    width: 50%;
+    text-align: center;
+}
+
+/*
+____________________________________________________________
+FILA 48 FIRMAS Puntos 54,55
+____________________________________________________________
+*/
+
+#fila-48{
+    padding-left: 3mm;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+}
+
+#txt-56{
+    width: 80mm;
+    height: 8mm;
+}
+
+#txt-56-1{
+    position: absolute;
+    width: 80mm;
+    height: 7mm;
+}
+
+#txt-56-2{
+    position: absolute;
+    top: -1.5mm;
+    left: 60mm;
+    width: 60mm;
+    height: 5mm;
+}
+#txt-56-3{
+    position: absolute;
+    top: 4mm;
+    left: 47.4mm;
+    width: 15mm;
+    height: 5mm;
+}
+
+#txt-56-2 .check{
+    position: relative;
+    width: 4mm;
+}
+
+#txt-56-4{
+    position: absolute;
+    top: 3mm;
+    left: 60mm;
+    width: 60mm;
+    height: 5mm;
+}
+
+#txt-56-4 .check{
+    position: relative;
+    width: 4mm;
+}
+
+#txt-56-4 .check:last-child{
+    width: 8mm;
+}
+
+/*
+____________________________________________________________
+FILA 49 X. DATOS A SER DILIGENCIADOS POR LA ENTIDAD TERRITORIAL
+____________________________________________________________
+*/
+
+#fila-49{
+    height: 11mm;
+    position: relative;
+    border-bottom: #5a6268 0.4mm solid;
+}
+
+#celda-66{
+    position: relative;
+    height: 11mm;
+    width: 30%;
+}
+
+#txt-66-1{
+    position: absolute;
+    border-right: #5a6268 0.4mm solid;
+    top: 4mm;
+    left: 0mm;
+    height: 7mm;
+    width: 50%;
+    text-align: center;
+}
+
+#check-66-1{
+    position: absolute;
+    top: 3mm;
+    left: 10mm;
+    width: 12mm;
+    height: 3mm;
+    border: #5a6268 0.4mm solid;;
+}
+
+#txt-66-2{
+    position: absolute;
+    top: 3.5mm;
+    left: 50%;
+    height: 7mm;
+    width: 50%;
+    text-align: center;
+}
+
+#check-66-2{
+    position: absolute;
+    top: 3mm;
+    left: 10mm;
+    width: 12mm;
+    height: 3mm;
+    border: #5a6268 0.4mm solid;;
+}
+
+#celda-67{
+    position: absolute;
+    border-left: #5a6268 0.4mm solid;
+    border-right: #5a6268 0.4mm solid;
+    width: 30%;
+    height: 11mm;
+    left: 30%;
+    top: 0mm;
+}
+
+#txt-67-1{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    top:4mm;
+    left: 0mm;
+}
+
+#txt-67-1-1{
+    position: absolute;
+    width: 100%;
+    height: 6mm;
+    top: 1mm;
+    left: 0mm;
+    border-right: #5a6268 0.4mm solid;
+}
+#txt-67-1-2{
+    position: absolute;
+    width: 100%;
+    height: 6mm;
+    top: 1mm;
+    left: 0mm;
+    border-right: #5a6268 0.4mm solid;
+}
+
+
+#txt-67-2{
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    top:4mm;
+    left: 25mm;
+}
+#txt-67-3{
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    top:4mm;
+    left: 43mm;
+}
+
+#check-67-1{
+    position: absolute;
+    top: 2mm;
+    left: 4mm;
+    width: 16mm;
+    height: 3mm;
+    border: #5a6268 0.4mm solid;
+}
+#check-67-2{
+    position: absolute;
+    top: 2mm;
+    left: 2.5mm;
+    width: 12mm;
+    height: 3mm;
+    border: #5a6268 0.4mm solid;
+}
+#check-67-3{
+    position: absolute;
+    top: 3mm;
+    left: 3mm;
+    width: 12mm;
+    height: 3mm;
+    border: #5a6268 0.4mm solid;
+}
+
+#celda-68{
+    position: absolute;
+    height: 11mm;
+    width: 20%;
+    left: 124.5mm;
+    top:0mm;
+    border-right: #5a6268 0.4mm solid;
+
+}
+
+#txt-68{
+    position: absolute;
+    top: 6mm;
+    left: 2mm;
+}
+
+#celda-69{
+    position: absolute;
+    height: 11mm;
+    width: 39.7mm;
+    left: 166.2mm;
+    top:0mm;
+    border-bottom: #5a6268 0.4mm solid;
+
+}
+
+#txt-69{
+    position: absolute;
+    top: 6mm;
+    left: 2mm;
+}
+
+/*
+____________________________________________________________
+FILA 50. Datos del funcio ario que realiza la Primer apellido validación
+____________________________________________________________
+*/
+
+#fila-50{
+    position: relative;
+    height: 11mm;
+    border-bottom: #5a6268 0.4mm solid;
+    padding-top: 0.5mm;
+}
+
+#txt-70-1{
+    position: absolute;
+    height: 3mm;
+    left: 0mm;
+    width: 25%;
+    top: 8.5mm;
+    border-right: #5a6268 0.4mm solid;
+    text-align: center;
+}
+
+#txt-70-2{
+    position: absolute;
+    left: 25%;
+    width: 25%;
+    top: 8.5mm;
+    height: 3mm;
+    border-right: #5a6268 0.4mm solid;
+    text-align: center;
+}
+#txt-70-3{
+    position: absolute;
+    left: 50%;
+    width: 25%;
+    top: 8.5mm;
+    height: 3mm;
+    border-right: #5a6268 0.4mm solid;
+    text-align: center;
+}
+#txt-70-4{
+    position: absolute;
+    left: 75%;
+    width: 25%;
+    top: 8.5mm;
+    height: 3mm;
+    text-align: center;
+}
+
+/*
+____________________________________________________________
+FILA 51. Tipo documento de identidad, numero, 71
+____________________________________________________________
+*/
+
+#fila-51{
+    position: relative;
+    height: 9.5mm;
+    border-bottom: #5a6268 0.4mm solid;
+    padding-top: 0.5mm;
+}
+
+#celda-70-5{
+    position: absolute;
+    height: 10mm;
+    left: 0mm;
+    width: 25%;
+    top: 0mm;
+    border-right: #5a6268 0.4mm solid;
+    text-align: center;
+}
+
+#txt-70-5{
+    position: absolute;
+    top: 2mm;
+    left: 8mm;
+    width: 40%;
+    text-align: center;
+}
+
+#celda-70-6{
+    position: absolute;
+    height: 10mm;
+    left: 25%;
+    width: 25%;
+    top: 0mm;
+    border-right: #5a6268 0.4mm solid;
+    text-align: center;
+}
+#txt-70-6{
+    position: absolute;
+    top: 7mm;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+#check-70-5{
+    position: absolute;
+    top:4mm;
+    left: 28mm;
+    border: #5a6268 0.4mm solid;
+    width: 12mm;
+    height: 4mm;
+}
+#celda-71{
+    position: absolute;
+    height: 10mm;
+    left: 50%;
+    width: 50%;
+    top: 0mm;
+    border-right: #5a6268 0.4mm solid;
+}
+
+/*
+____________________________________________________________
+FILA 52. OBSERVACIONES
+____________________________________________________________
+*/
+
+#fila-52{
+    margin-top: 3mm;
+}
+
+.filas-52{
+    height: 4mm;
+    width: 100%;
+    border-top: 0.4mm #5a6268 solid;
+}
+.filas-52:last-child{
+    border-bottom: #5a6268 0.4mm solid;
+}
+
+/*
+____________________________________________________________
+FILA 53. FIN
+____________________________________________________________
+*/
+
+#fila-53{
+    padding-top: 3mm;
+    text-align: center;
+    font-size: 2.5mm;
+}
+
+
+
+/*
+____________________________________________________________
+CARTA DE DEBERES Y DERECHOS
+____________________________________________________________
+*/
+
+.logo-centro img{
+    position: fixed;
+    top: 3mm;
+    left: 87mm;
+    width: 30mm;
+}
+
+.parrafo-carta{
+    position: relative;
+    top: 20mm;
+    padding: 0mm 20mm 5mm 20mm;
+    font-size: 3.5mm;
+    text-align: justify;
+
+}
+
+.parrafo-carta .firma td{
+    vertical-align: bottom;
+}
+
+.huella{
+    height: 22mm;
+    width: 20mm;
+    border: #5a6268 0.4mm solid;
+    margin-top: 1mm;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sino{
+    width: 12mm;
+    height: 6mm;
+}
+
+.sino .check{
+    position: relative;
+    float: right;
+    top: -1mm;
+}
