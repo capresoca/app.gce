@@ -18,7 +18,7 @@ services:
       #- ./backupdb/my.cnf:/etc/mysql/my.cnf            
       - ./backupdb:/var/tmp/scripts
       - ./backupdb/load.sql:/docker-entrypoint-initdb.d/1.sql
-      #- ./backupdb/init.sql:/docker-entrypoint-initdb.d/2.sql
+      - ./backupdb/init.sql:/docker-entrypoint-initdb.d/2.sql
 
   srv-redis:
     image: redis:latest
