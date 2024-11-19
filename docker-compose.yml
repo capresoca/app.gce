@@ -63,9 +63,9 @@ services:
     depends_on:
       -  gce-backend
 
-  nginx:
+  gce-nginx:
     image: nginx:latest
-    container_name: nginx
+    container_name: gce-nginx
     ports:
       - "8080:8080"
       - "8000:8000"
