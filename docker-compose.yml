@@ -41,6 +41,7 @@ services:
     volumes:
       - ./backend:/var/www/html
       - ./apache2/php.ini:/etc/php/7.2/apache2/php.ini
+      - ./filesystem:/tmp/filesystem
     user: "root:root"
     expose:
       - "8000"
