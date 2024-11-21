@@ -57,8 +57,8 @@ return [
 
         's3' => [
             'driver' => 'local',
-            'root' => public_path('../../../../../../copias/capresoca-app'),
-            'url' => env('APP_URL').public_path('../../../../../../backups/capresoca-app'),
+            'root' => public_path('/tmp/filesystem/copias/capresoca-app'),
+            'url' => env('APP_URL').public_path('/tmp/filesystem/backups/capresoca-app'),
             'visibility' => 'public',
 //            'driver' => 's3',
 //            'key' => env('AWS_ACCESS_KEY_ID'),
